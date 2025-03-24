@@ -2,21 +2,21 @@
 The Expense Tracker CLI Tool is a command-line application built using Python and PostgreSQL that helps users efficiently manage and track their expenses. It allows adding, updating, deleting, and summarizing expenses based on date and month.
 
 **#Features**  
-1.Add new expenses with a description, amount, and category.  
-2.List all recorded expenses in a tabular format.  
-3.Update existing expenses by modifying the description or amount.  
-4.Delete expenses based on their unique ID.  
-5.Summarize total expenses for a specific month or date.  
-6.Automatically create the database and table if they do not exist.  
+1. Add new expenses with a description, amount, and category.  
+2. List all recorded expenses in a tabular format.  
+3. Update existing expenses by modifying the description or amount.  
+4. Delete expenses based on their unique ID.  
+5. Summarize total expenses for a specific month or date.  
+6. Automatically create the database and table if they do not exist.  
 
 **#Prerequisites**  
 Before running the application, ensure the following dependencies are installed:  
-`1.Python 3.11 or higher`  
-`2.PostgreSQL 15 or higher`  
+`Python 3.11 or higher`  
+`PostgreSQL 15 or higher`  
 
 **#Required Python packages:**  
-`1.psycopg2`  
-`2.tabulate`  
+`psycopg2`  
+`tabulate`  
 
 **#Installation**  
 Step 1: Clone the Repository:   
@@ -32,7 +32,7 @@ The application automatically checks for the expense_tracker database and create
 **#Default Database Connection Settings:**  
 Host: localhost  
 User: postgres  
-Password: *Chance this to your postgreSQL password*  
+Password: `*Change this to your postgreSQL password*`  
 Port: 5432  
 *To modify the database settings, update the setupDatabase() function in expense_tracker.py.*  
 
@@ -47,23 +47,23 @@ Available Commands
     `summary – View a summary of expenses by month or date.`  
 
 **#Command Examples**  
-1.Add an Expense  
+1. Add an Expense  
     `python expense_tracker.py add "Lunch" 100 "Food"`  
-2.List All Expenses  
+2. List All Expenses  
     `python expense_tracker.py list`  
-3.Update an Expense  
+3. Update an Expense  
     `python expense_tracker.py update 2 --desc "Dinner" --amt 150`  
-4.Delete an Expense  
+4. Delete an Expense  
     `python expense_tracker.py delete 3`  
-5.Get Expense Summary for a Month  
+5. Get Expense Summary for a Month  
     `python expense_tracker.py summary --month 3`  
-6.Get Expense Summary for a Specific Date  
+6. Get Expense Summary for a Specific Date  
     `python expense_tracker.py summary --month 3 --date 15`  
 
 **#Error Handling**  
-1.Handles database connection errors and invalid SQL queries.  
-2.Validates user inputs for commands and arguments.  
-3.Displays appropriate error messages for incorrect usage.  
+1. Handles database connection errors and invalid SQL queries.  
+2. Validates user inputs for commands and arguments.  
+3. Displays appropriate error messages for incorrect usage.  
 
 **#Contributing**  
 Contributions are welcome. If you encounter any issues or have suggestions for improvements, feel free to submit a pull request.
