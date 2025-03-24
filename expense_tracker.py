@@ -9,7 +9,7 @@ def setupDatabase():
         con = psycopg2.connect(
             host = "localhost",
             user = "postgres",
-            password = "abhas"
+            password = "*your password"
         )
         con.autocommit = True
         cursor = con.cursor()
@@ -30,7 +30,7 @@ def setupDatabase():
             database = "expense_tracker",
             host = "localhost",
             user = "postgres",
-            password = "abhas" 
+            password = "*your password" 
         )
         print("Connected to Database...")
         
