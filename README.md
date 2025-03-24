@@ -38,9 +38,9 @@ Port: 5432
 
 **#Usage**  
 Run the Application  
-    python expense_tracker.py <command> [options]  
+`python expense_tracker.py <command> [options]`  
 Available Commands  
-    add – Add a new expense.  
+    `add – Add a new expense.`  
     list – List all recorded expenses.  
     update – Update the description or amount of an expense.  
     delete – Delete an expense by ID.  
