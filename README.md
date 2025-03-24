@@ -20,11 +20,11 @@ Before running the application, ensure the following dependencies are installed:
 
 **#Installation**  
 Step 1: Clone the Repository:   
-    git clone https://github.com/your-username/expense-tracker.git  
-    cd expense-tracker  
+>git clone https://github.com/your-username/expense-tracker.git  
+>cd expense-tracker  
 Step 2: Install Required Packages  
-    pip install psycopg2  
-    pip install tabulate  
+>pip install psycopg2  
+>pip install tabulate  
   
 **#Database Setup**  
 The application automatically checks for the expense_tracker database and creates it if it does not exist. It also creates the expenses table with the necessary columns.  
