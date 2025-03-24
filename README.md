@@ -68,7 +68,7 @@ Available Commands
 **#Contributing**  
 Contributions are welcome. If you encounter any issues or have suggestions for improvements, feel free to submit a pull request.
 
-Contact
-For any queries, reach out at:
-Email: abhasganguli2003@gmail.com
+**#Contact**
+For any queries, reach out at:  
+Email: abhasganguli2003@gmail.com  
 LinkedIn: linkedin.com/in/abhasganguli
