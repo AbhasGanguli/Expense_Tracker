@@ -23,8 +23,8 @@ Step 1: Clone the Repository:
     git clone https://github.com/your-username/expense-tracker.git  
     cd expense-tracker  
 Step 2: Install Required Packages  
-  pip install psycopg2  
-  pip install tabulate  
+    pip install psycopg2  
+    pip install tabulate  
   
 **#Database Setup**  
 The application automatically checks for the expense_tracker database and creates it if it does not exist. It also creates the expenses table with the necessary columns.  
@@ -38,27 +38,27 @@ Port: 5432
 
 **#Usage**  
 Run the Application  
-  python expense_tracker.py <command> [options]  
+    python expense_tracker.py <command> [options]  
 Available Commands  
-  add – Add a new expense.  
-  list – List all recorded expenses.  
-  update – Update the description or amount of an expense.  
-  delete – Delete an expense by ID.  
-  summary – View a summary of expenses by month or date.  
+    add – Add a new expense.  
+    list – List all recorded expenses.  
+    update – Update the description or amount of an expense.  
+    delete – Delete an expense by ID.  
+    summary – View a summary of expenses by month or date.  
 
 **#Command Examples**  
 1.Add an Expense  
-  python expense_tracker.py add "Lunch" 100 "Food"  
+    python expense_tracker.py add "Lunch" 100 "Food"  
 2.List All Expenses  
-  python expense_tracker.py list  
+    python expense_tracker.py list  
 3.Update an Expense  
-  python expense_tracker.py update 2 --desc "Dinner" --amt 150  
+    python expense_tracker.py update 2 --desc "Dinner" --amt 150  
 4.Delete an Expense  
-  python expense_tracker.py delete 3  
+    python expense_tracker.py delete 3  
 5.Get Expense Summary for a Month  
-  python expense_tracker.py summary --month 3  
+    python expense_tracker.py summary --month 3  
 6.Get Expense Summary for a Specific Date  
-  python expense_tracker.py summary --month 3 --date 15  
+    python expense_tracker.py summary --month 3 --date 15  
 
 **#Error Handling**  
 1.Handles database connection errors and invalid SQL queries.  
@@ -71,4 +71,4 @@ Contributions are welcome. If you encounter any issues or have suggestions for i
 Contact
 For any queries, reach out at:
 Email: abhasganguli2003@gmail.com
-LinkedIn: linkedin.com/in/abhas-ganguli-89187a315
+LinkedIn: linkedin.com/in/abhasganguli
